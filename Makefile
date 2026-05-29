@@ -8,7 +8,7 @@
 # CMake suite maintained and supported by Kitware (kitware.com/cmake).
 # $ sudo apt install gcc-14 g++-14 python3.12-venv qt6-base-dev
 
-.PHONY: all
+.PHONY : all
 
-all:
+all :
 	PATH=/snap/bin:${PATH} ./Meta/ladybird.py build
